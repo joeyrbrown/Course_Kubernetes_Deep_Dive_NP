@@ -2,6 +2,7 @@ FROM centos:centos7
 USER root
 
 LABEL MAINTAINER=nigelpoulton@hotmail.com
+USER root
 
 # Install Node etc...
 RUN yum -y update; yum clean all
