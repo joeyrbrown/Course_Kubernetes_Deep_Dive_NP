@@ -10,4 +10,4 @@ spec:
     storage: 20Gi
   persistentVolumeReclaimPolicy: Retain
   gcePersistentDisk:
-    pdName: kdd-uber-disk  
+    pdName: uber-disk  
