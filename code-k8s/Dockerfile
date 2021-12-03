@@ -1,4 +1,5 @@
 FROM centos:centos7
+USER root
 
 LABEL MAINTAINER=nigelpoulton@hotmail.com
 
